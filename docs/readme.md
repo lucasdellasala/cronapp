@@ -1,8 +1,8 @@
-# CronApp
+# CronApp ⌛
 
 A simple Express-based API built with TypeScript that provides basic CRUD operations for managing cron jobs. This API allows you to create, read, update, and delete tasks that are scheduled to run at specified intervals. Each task can be scheduled with different time intervals and will log all request details.
 
-## Features
+## Features 🤖
 
 - **Create Tasks**: Schedule tasks with different intervals.
 - **Read Tasks**: List all tasks or get details of a specific task.
@@ -10,6 +10,13 @@ A simple Express-based API built with TypeScript that provides basic CRUD operat
 - **Delete Tasks**: Remove tasks from the schedule.
 - **Logging**: Logs all request details including headers, body, and query parameters.
 
+## Future features ⏭
+
+- **Data base connection.**
+- **Error handling and retrying.**
+- **Authentication, users and roles.**
+
+___
 ## Getting Started
 
 ### Prerequisites
@@ -40,6 +47,7 @@ A simple Express-based API built with TypeScript that provides basic CRUD operat
 
    The server will run on `http://localhost:3000`.
 
+___
 ## API Endpoints
 
 ### Create a Task
@@ -165,25 +173,7 @@ A simple Express-based API built with TypeScript that provides basic CRUD operat
   "Task deleted"
   ```
 
-## Logging
-
-Each request to the API logs the following details:
-
-- **Headers**
-- **Body**
-- **Query Parameters**
-- **Request Method**
-
-This helps in debugging and tracking requests made to the API.
-
-## Running Tests
-
-To run tests (if any), use the following command:
-
-```bash
-npm test
-```
-
+___
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
