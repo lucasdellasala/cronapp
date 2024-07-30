@@ -22,8 +22,8 @@ A simple Express-based API built with TypeScript that provides basic CRUD operat
 1. **Clone the Repository**
 
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/lucasdellasala/cronapp.git
+   cd cronapp
    ```
 
 2. **Install Dependencies**
